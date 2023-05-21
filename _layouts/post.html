@@ -17,6 +17,9 @@ layout: default
   <article>
     {{ content }}
   </article>
+
+  {% include post-navigation.html %}
+
   {% if site.hide_post_share != true %}
     {% include post-share.html %}
   {% endif %}

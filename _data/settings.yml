@@ -24,8 +24,8 @@ social:
 
 # Customize site text
 pagination:
-  next_page: 'Next'
-  previous_page: 'Prev'
+  next_page:     'Older'
+  previous_page: 'Newer'
 
 # See includes/post-share.html
 # sharing_button_prompt: 'Feel free to share!'
