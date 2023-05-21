@@ -1,0 +1,38 @@
+# For now, no 'comments' is supported
+disqus:
+  comments: false
+  disqus_shortname: 'huangblog-1'
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: ''
+
+menu:
+- {name: 'About',             url: 'about'}
+- {name: 'Tags',              url: 'tags'}
+- {name: 'Series',            url: 'series'}
+- {name: 'Essay',             url: 'essay'}
+- {name: 'Review',            url: 'review'}
+- {name: 'Journal',           url: 'journal'}
+- {name: 'Other',             url: 'other'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'github-alt',   link: 'https://github.com/huang-feiyu/huang-feiyu.github.io'}
+- {icon: 'fish',         link: 'https://huang-feiyu.github.io/old'}
+- {icon: 'blog',         link: 'https://huangfeiyu.blogspot.com'}
+- {icon: 'rss',          link: 'feed.xml'}
+
+# Customize site text
+pagination:
+  next_page: 'Next'
+  previous_page: 'Prev'
+
+# See includes/post-share.html
+# sharing_button_prompt: 'Feel free to share!'
+
+# See includes/related-posts.html
+# related_posts: 'You may also enjoy...'
+
+post_date_prefix: 'Written <i>on</i>'
+
+font_awesome_key: 'a945489fcb'
