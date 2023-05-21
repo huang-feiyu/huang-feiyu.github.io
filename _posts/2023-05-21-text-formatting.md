@@ -3,6 +3,7 @@ layout: post
 title:      Text Formatting
 author:     Ludwig Huang
 categories: review
+tags:       [format]
 image:      arctic-1.jpg
 ---
 

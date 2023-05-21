@@ -1,7 +1,7 @@
 ---
-layout:    page
+layout:    tags
 title:     标签
 permalink: /tags
 ---
 
-TODO: Manual Classification
+Automatic Classification

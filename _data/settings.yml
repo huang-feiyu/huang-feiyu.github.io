@@ -1,3 +1,11 @@
+# All tags
+#     NOTE: Only when a post that has tags that are in `series`
+#           AND whose category is "series", it will be represented in url("series")
+tags:
+- {series: false, name: 'Format',      tag: 'format'}
+- {series: true,  name: 'Trial',       tag: 'trial'}
+- {series: true,  name: 'Dostoevsky',  tag: 'dostoevsky'}
+
 menu:
 - {name: 'About',             url: 'about'}
 - {name: 'Tags',              url: 'tags'}
@@ -6,11 +14,6 @@ menu:
 - {name: 'Essay',             url: 'essay'}
 - {name: 'Journal',           url: 'journal'}
 - {name: 'Other',             url: 'other'}
-
-# For several series
-series:
-- {name: 'Trial',      tag: 'trial'}
-- {name: 'Dostoevsky', tag: 'dostoevsky'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
