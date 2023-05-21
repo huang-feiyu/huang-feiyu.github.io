@@ -10,8 +10,8 @@ menu:
 - {name: 'About',             url: 'about'}
 - {name: 'Tags',              url: 'tags'}
 - {name: 'Series',            url: 'series'}
-- {name: 'Essay',             url: 'essay'}
 - {name: 'Review',            url: 'review'}
+- {name: 'Essay',             url: 'essay'}
 - {name: 'Journal',           url: 'journal'}
 - {name: 'Other',             url: 'other'}
 
@@ -20,7 +20,7 @@ social:
 - {icon: 'github-alt',   link: 'https://github.com/huang-feiyu/huang-feiyu.github.io'}
 - {icon: 'fish',         link: 'https://huang-feiyu.github.io/old'}
 - {icon: 'blog',         link: 'https://huangfeiyu.blogspot.com'}
-- {icon: 'rss',          link: 'feed.xml'}
+# - {icon: 'rss',          link: 'feed.xml'}
 
 # Customize site text
 pagination:
