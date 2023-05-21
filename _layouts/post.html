@@ -14,6 +14,11 @@ layout: default
       <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
     </div>
   {% endif %}
+
+  {% if page.description %}
+    <blockquote>{{ page.description }}</blockquote>
+  {% endif %}
+
   <article>
     {{ content }}
   </article>
