@@ -1,11 +1,3 @@
-# For now, no 'comments' is supported
-disqus:
-  comments: false
-  disqus_shortname: 'huangblog-1'
-
-# If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: ''
-
 menu:
 - {name: 'About',             url: 'about'}
 - {name: 'Tags',              url: 'tags'}
@@ -14,6 +6,11 @@ menu:
 - {name: 'Essay',             url: 'essay'}
 - {name: 'Journal',           url: 'journal'}
 - {name: 'Other',             url: 'other'}
+
+# For several series
+series:
+- {name: 'Trial',      tag: 'trial'}
+- {name: 'Dostoevsky', tag: 'dostoevsky'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
@@ -24,8 +21,8 @@ social:
 
 # Customize site text
 pagination:
-  next_page:     'Older'
-  previous_page: 'Newer'
+  next_page:     'Newer'
+  previous_page: 'Older'
 
 # See includes/post-share.html
 # sharing_button_prompt: 'Feel free to share!'
@@ -36,3 +33,11 @@ pagination:
 post_date_prefix: 'Written <i>on</i>'
 
 font_awesome_key: 'a945489fcb'
+
+# For now, no 'comments' is supported
+disqus:
+  comments: false
+  disqus_shortname: 'huangblog-1'
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: ''
