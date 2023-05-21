@@ -71,9 +71,15 @@ lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ip
 
 ##### Embedding
 
-Plenty of social media sites offer the option of embedding certain parts of their site on your own site, such as YouTube:
+Plenty of social media sites offer the option of embedding certain parts of their site on your own site, such as YouTube and Telegram:
+
+YouTube:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/744DJ3OAcOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Telegram:
+
+<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="huangblog/74" data-width="100%"></script>
 
 ##### MathJax Example
 
