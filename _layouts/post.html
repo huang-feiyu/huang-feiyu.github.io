@@ -12,11 +12,11 @@ layout: default
     {% include post-date.html %}
   {% endif %}
 
-  {% for tag in page.tags %}
-    <div class="tags">
+  <div class="tags">
+    {% for tag in page.tags %}
       <a class="tag" href="/tags#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 
   {% if page.image %}
     <div class="featured-image">
