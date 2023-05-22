@@ -42,4 +42,23 @@ h6:hover .header-link {
   opacity: 1;
 }
 
+.tags a, .tags .tag {
+  font-family: Century;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 999em;
+  padding: 0 10px 0 10px;
+  color: #000000c9;
+  line-height: 24px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform:uppercase;
+  margin: 0 1px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+.tags a:hover {
+  opacity: 0.5;
+}
+
 @import "-sections-dir";
