@@ -11,7 +11,12 @@ layout: default
   {% if site.data.settings.tags != nil %}
     <ul>
     {% for tag in site.data.settings.tags %}
-      <li><a href="{{ page.url }}#{{ tag.tag }}">{{ tag.name }}</a></li>
+      <li>
+        <a href="{{ page.url }}#{{ tag.tag }}">{{ tag.name }}</a>
+        {% if tag.description != '' %}
+        : {{ tag.description }}
+        {% endif %}
+      </li>
     {% endfor %}
     </ul>
   {% endif %}

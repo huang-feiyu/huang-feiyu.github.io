@@ -2,9 +2,9 @@
 #     NOTE: Only when a post that has tags that are in `series`
 #           AND whose category is "series", it will be represented in url("series")
 tags:
-- {series: false, name: 'Chinese',     tag: 'chinese'}
-- {series: true,  name: 'Trial',       tag: 'trial'}
-- {series: true,  name: 'Dostoevsky',  tag: 'dostoevsky'}
+- {series: false, name: 'Chinese',     tag: 'chinese',    description: '中文博客'}
+- {series: true,  name: 'Trial',       tag: 'trial',      description: ''}
+- {series: true,  name: 'Dostoevsky',  tag: 'dostoevsky', description: ''}
 
 menu:
 - {name: 'About',             url: 'about'}
