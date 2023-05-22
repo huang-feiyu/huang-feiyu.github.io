@@ -116,3 +116,20 @@
 .post-navigation .holder {
   text-decoration: none;
 }
+
+.tags a, .tags .tag {
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 999em;
+  padding: 0 10px 0 10px;
+  color: #000000;
+  line-height: 24px;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 0 1px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+.tags a:hover {
+  opacity: 0.5;
+}

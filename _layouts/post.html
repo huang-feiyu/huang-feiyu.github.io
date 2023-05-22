@@ -3,12 +3,21 @@ layout: default
 ---
 
 <div class="post-content">
+
   <h1>
     {{ page.title }}
   </h1>
+
   {% if site.hide_post_date != true %}
     {% include post-date.html %}
   {% endif %}
+
+  {% for tag in page.tags %}
+    <div class="tags">
+      <a class="tag" href="/tags#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+    </div>
+  {% endfor %}
+
   {% if page.image %}
     <div class="featured-image">
       <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
