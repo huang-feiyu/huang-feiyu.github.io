@@ -1,4 +1,4 @@
-<header class="site-header">
+<header class="site-header" id="site-header">
   <h3 class="site-title">
     <a href="{{ site.github.url }}/">{{ site.title }}</a>
   </h3>
@@ -22,3 +22,16 @@
     </div>
   </div>
 </header>
+
+<script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("site-header").style.display = "";
+    } else {
+      document.getElementById("site-header").style.display = "none";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+</script>
