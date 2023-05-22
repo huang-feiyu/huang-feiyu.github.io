@@ -15,12 +15,7 @@ layout: default
     <ul>
     {% for tag in site.data.settings.tags %}
       {% if tag.series %}
-        <li>
-          <a href="{{ page.url }}#{{ tag.tag }}">{{ tag.name }}</a>
-          {% if tag.description != '' %}
-          : {{ tag.description }}
-          {% endif %}
-        </li>
+        {% include item-tag.html %}
       {% endif %}
     {% endfor %}
     </ul>

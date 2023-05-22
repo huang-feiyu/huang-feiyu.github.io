@@ -11,12 +11,7 @@ layout: default
   {% if site.data.settings.tags != nil %}
     <ul>
     {% for tag in site.data.settings.tags %}
-      <li>
-        <a href="{{ page.url }}#{{ tag.tag }}">{{ tag.name }}</a>
-        {% if tag.description != '' %}
-        : {{ tag.description }}
-        {% endif %}
-      </li>
+      {% include item-tag.html %}
     {% endfor %}
     </ul>
   {% endif %}
@@ -25,17 +20,12 @@ layout: default
   <!-- Seperated tags -->
   {% if site.data.settings.tags != nil %}
     {% for tag in site.data.settings.tags %}
-      <br/>
+      <br>
       <h5 id="{{ tag.tag }}">{{ tag.name }}</h5>
       <ul>
       {% for post in site.posts %}
         {% if post.tags contains tag.tag %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            {% if post.description %}
-            : {{ post.description }}
-            {% endif %}
-          </li>
+          {% include item-post.html %}
         {% endif %}
       {% endfor %}
       </ul>
