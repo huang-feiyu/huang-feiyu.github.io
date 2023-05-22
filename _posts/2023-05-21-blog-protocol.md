@@ -76,7 +76,7 @@ Plenty of social media sites offer the option of embedding certain parts of thei
 YouTube:
 
 <div class="videoWrapper">
-<iframe width="560" height="315" src="http://www.youtube.com/embed/744DJ3OAcOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/744DJ3OAcOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Telegram:
