@@ -5,7 +5,7 @@
     <div class="container">
       {% include header.html %}
       <div class="content-wrapper">
-        {{ content }}
+        {% include anchor-headings.html beforeHeading=true html=content anchorBody="#" anchorAttrs="style=text-decoration:none;" anchorClass="header-link" %}
       </div>
       {% include footer.html %}
     </div>
