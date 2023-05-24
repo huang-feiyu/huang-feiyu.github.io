@@ -38,6 +38,14 @@ a:hover {
   opacity: 0.75;
 }
 
+article.featured-post-article a:hover {
+  opacity: 0.9;
+
+  -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+  -moz-transition: opacity 0.2s ease-in-out 0.1s;
+  -ms-transition: opacity 0.2s ease-in-out 0.1s;
+}
+
 .tags a, .tags .tag {
   font-family: Century;
   display: inline-block;
