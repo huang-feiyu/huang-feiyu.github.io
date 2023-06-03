@@ -8,30 +8,34 @@ layout: default
   </h1>
   <article>
     {{ content }}
-  </article>
 
-  <!-- Representation of within page links -->
-  {% if site.data.settings.tags != nil %}
-    <ul>
+
+    <!-- Representation of within page links -->
+    {% if site.data.settings.tags != nil %}
+      <ul>
+      {% for tag in site.data.settings.tags %}
+        {% if tag.series %}
+          {% include item-tag.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+    {% endif %}
+
+
+    <!-- Seperated series -->
     {% for tag in site.data.settings.tags %}
       {% if tag.series %}
-        {% include item-tag.html %}
+        <div id="{{ tag.tag }}"><font color="white">{{ tag.name }}</font></div>
+        {% for post in site.posts %}
+          {% if post.categories contains page.category %}
+            {% if post.tags contains tag.tag %}
+              {% include featured-post.html %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
       {% endif %}
     {% endfor %}
-    </ul>
-  {% endif %}
+
+  </article>
 </div>
 
-<!-- Seperated series -->
-{% for tag in site.data.settings.tags %}
-  {% if tag.series %}
-    <div id="{{ tag.tag }}"><font color="white">{{ tag.name }}</font></div>
-    {% for post in site.posts %}
-      {% if post.categories contains page.category %}
-        {% if post.tags contains tag.tag %}
-          {% include featured-post.html %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  {% endif %}
-{% endfor %}

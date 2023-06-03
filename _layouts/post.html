@@ -18,21 +18,21 @@ layout: default
     {% endfor %}
   </div>
 
-  {% if page.description %}
-    <blockquote>{{ page.description }}</blockquote>
-  {% endif %}
-
-  {% if page.toc == true %}
-    {% include toc.html html=content %}
-  {% else %}
-    {% if page.image %}
-      <div class="featured-image">
-        <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
-      </div>
-    {% endif %}
-  {% endif %}
-
   <article>
+    {% if page.description %}
+      <blockquote>{{ page.description }}</blockquote>
+    {% endif %}
+
+    {% if page.toc == true %}
+      {% include toc.html html=content %}
+    {% else %}
+      {% if page.image %}
+        <div class="featured-image">
+          <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+        </div>
+      {% endif %}
+    {% endif %}
+
     {{ content }}
   </article>
 
