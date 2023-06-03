@@ -1,6 +1,6 @@
 ---
 layout:      post
-title:       The Evolution of Chatbots
+title:       The Revolution of Chatbots
 author:      Ludwig Huang
 categories:  journal
 tags:        [english, ai]
