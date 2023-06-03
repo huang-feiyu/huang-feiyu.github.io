@@ -3,7 +3,9 @@
 #           AND whose category is "series", it will be represented in url("series")
 tags:
 - {series: false, name: 'Chinese',     tag: 'chinese',    description: '中文博客'}
+- {series: false, name: 'English',     tag: 'english',    description: 'English Blog'}
 - {series: false, name: 'Memory',      tag: 'memory',     description: '回忆与过去、那逝去的'}
+- {series: false, name: 'AI',          tag: 'ai',         description: 'the outstanding AI'}
 - {series: true,  name: 'Trial',       tag: 'trial',      description: ''}
 - {series: true,  name: 'Dostoevsky',  tag: 'dostoevsky', description: ''}
 
