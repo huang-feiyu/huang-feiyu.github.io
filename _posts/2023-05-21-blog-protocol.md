@@ -11,7 +11,7 @@ description: 对博客的一些简要说明（UI、标点、符号等）。
 
 ### UI 说明
 
-* 字体：主要字体为[思源宋体](https://fonts.google.com/noto/specimen/Noto+Sans+SC)（衬线字体）；如果字体渲染模糊，可以更换更高分辨率的显示器或 zoom up 网页
+* 字体：主要字体为[思源宋体](https://fonts.google.com/noto/specimen/Noto+Serif+SC)（衬线字体）；如果字体渲染模糊，可以更换更高分辨率的显示器或 zoom up 网页
 * 超链接：显示为<u>下划线</u>，且 hover 时 opacity 降低
 * 文章题图：如果博客中使用文章目录（table of content），文章题图会自动隐藏
 * 文章描述：如果存在文章描述的话，它处于标签（tags）与 文章目录/文章题图 之间
