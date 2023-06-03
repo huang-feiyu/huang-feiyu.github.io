@@ -35,7 +35,7 @@ permalink: /about
 
 > 天才犹如暴风雨：他们顶风而行；令人生畏；使空气清洁。
 
-尽管确知每个人身上都存在着共性，我却这样折磨自己：“是的，每个人身上都有*或多或少* 相似的缺陷，但是我的缺陷/个性是**独一无二**的。” 我深知独特与否并不能够证明一个人的存在，但在内心深处，我依旧拒绝接受根植于灵魂深处的「常人」。
+尽管确知每个人身上都存在着共性，我却这样折磨自己：“是的，每个人身上都有*或多或少* 相似的缺陷，但是我的缺陷/个性是**独一无二**的。”我深知独特与否并不能够证明一个人的存在，但在内心深处，我依旧拒绝接受根植于灵魂深处的「常人」。
 
 天才——如克尔凯郭尔、维特根斯坦——最令我着迷，他们是毫无争议的唯一的存在：这正是我希望成为的。我毫不讳言：**我试图成为天才**；尽管天才不是生造出来的，尽管我并不相信自己能够做到，尽管这种宣言使得整个博客沾染上令人作呕的傲慢，我依旧固执己见。
 
@@ -48,3 +48,15 @@ permalink: /about
 > 本真的向死存在可以概括如下：作为个别的「此在」，先行到死，看清楚了丧失「常人」之中的「日常存在」，不再沉陷于「操劳」和「操持」，而是立足于自己的生存筹划种种生存的可能性，面对由「畏」敞开的威胁而确知它自己，因负重而激起热情，解说了「常人」的幻想而更加实际，在「向死存在」中获得自由。
 
 所以，我想要成为一个立足于自身的人；如果可能的话，成为一个立足于自身的天才。
+
+### Thanks
+
+Huang blog is a blog built upon numerous resources from Internet. Thanks to those who provided them and the sites hosting them.
+
+* [GitHub Page](https://pages.github.com/)
+* [Millennial](https://github.com/LeNPaul/Millennial/)
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Pixabay](https://pixabay.com/)
+* [Mathjax](https://www.mathjax.org/)
+* …

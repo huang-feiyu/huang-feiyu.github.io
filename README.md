@@ -25,6 +25,18 @@
 
 另：本博客为中英文双语博客（以中文为主），不对两者进行区分。目前作者的英文写作水平并不足以支撑一篇行文流畅的文章，所以相当一部分的英文文章为练笔之作。
 
+### Thanks
+
+Huang blog is a blog built upon numerous resources from Internet. Thanks to those who provided them and the sites hosting them.
+
+* [GitHub Page](https://pages.github.com/)
+* [Millennial](https://github.com/LeNPaul/Millennial/)
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Pixabay](https://pixabay.com/)
+* [Mathjax](https://www.mathjax.org/)
+* …
+
 ### Other
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
@@ -37,8 +49,3 @@ This work is licensed under a
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
-
----
-
-The blog is "forked" from [Millennial](https://github.com/LeNPaul/Millennial/).
-If you want to build a blog like this, please refer to the template theme.

@@ -1,11 +1,13 @@
 ---
 layout:      post
-title:       标点与符号说明
+title:       博客约定
 author:      Ludwig Huang
 categories:  other
 tags:        [chinese]
 image:       paper-1.jpg
 ---
+
+NOTE: For Chinese readers, to get full intact experience of Huang Blog, please learn how to cross the *Great Firewall*.
 
 ### 标点说明
 
@@ -19,7 +21,7 @@ image:       paper-1.jpg
 * 半引号 **「」**：标示特殊名词或术语<sup>[1]</sup><br><br>
   *例*：信仰的骑士从未想过「信仰的飞跃」，但他已然飞跃。
 * 半空引号 **『』**：标示特殊名词或术语，用于「」内部<sup>[2]</sup>
-* 双引号 **“ ”**：标识引语；标示特殊称谓；标示特殊含义（特别地，讽刺与否定）<br><br>
+* 双引号 **“”**：标识引语；标示特殊称谓；标示特殊含义（特别地，讽刺与否定）<br><br>
   *例*：那过去的时间像鬼魅一般不断地抓着他，他从这不“尊重”自我的事件中获得享受。
 * 方括号 **［］**：对正文的补充或订正；国际音标/古文注音
 
@@ -27,7 +29,7 @@ image:       paper-1.jpg
 
 * [0]：微软输入法使用特殊字符的教程 - [telegram comment](https://t.me/huangblog/31?comment=110)
 * [1]：为了减少「」对阅读的影响，每篇博客一般只会在第一次出现某个术语时，使用此标点。
-* [2]：正确用法为「」为第一层，类似于“ ”第一层。此前大多使用错误。
+* [2]：正确用法为「」为第一层，类似于“”第一层。此前大多使用错误。
 
 ### 符号说明
 
