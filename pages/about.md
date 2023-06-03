@@ -6,6 +6,8 @@ permalink: /about
 
 **更新情况**：每周更新一篇，一般在 周五 或 周六 或 周日 更新。
 
+**访问须知**: For Chinese readers, to get full intact experience of Huang Blog, please learn how to cross the *Great Firewall*.
+
 ### 关于博客
 
 > 所有哲学都提倡交流、讲述，并想要被倾听。
