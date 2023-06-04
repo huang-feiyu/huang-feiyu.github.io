@@ -24,7 +24,11 @@ layout: default
     {% endif %}
 
     {% if page.toc == true %}
+    <div class="toc-container">
+      <center>Table of Content</center>
+      <hr>
       {% include toc.html html=content %}
+    </div>
     {% else %}
       {% if page.image %}
         <div class="featured-image">

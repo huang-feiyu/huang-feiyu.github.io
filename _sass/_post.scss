@@ -116,3 +116,21 @@
 .post-navigation .holder {
   text-decoration: none;
 }
+
+.toc-container {
+  padding: 5px;
+  border: 1px solid;
+}
+
+.toc-container ul {
+  list-style-type: none; /* Remove bullets */
+}
+
+.toc-container hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
