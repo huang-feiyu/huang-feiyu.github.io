@@ -1,0 +1,37 @@
+<div class="tag-posts">
+  {% if site.data.settings.tags != nil %}
+    {% for tag in site.data.settings.tags %}
+      {% if include.series == nil %}
+
+        <br>
+        <h5 id="{{ tag.tag }}">{{ tag.name }}</h5>
+        <ul>
+        {% for post in site.posts %}
+          {% if post.tags contains tag.tag %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              {% if post.description %}
+              : {{ post.description }}
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+
+      {% else %}
+
+        {% if tag.series %}
+          <div id="{{ tag.tag }}"><font color="white">{{ tag.name }}</font></div>
+          {% for post in site.posts %}
+            {% if post.categories contains page.category %}
+              {% if post.tags contains tag.tag %}
+                {% include featured-post.html %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+</div>

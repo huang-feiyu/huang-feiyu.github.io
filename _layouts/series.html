@@ -9,24 +9,11 @@ layout: default
   <article>
     {{ content }}
 
-
     <!-- Representation of within page links -->
-    {% include tag-table.html col1="Series" col2="Description" series=true %}
-
-    <!-- Seperated series -->
-    {% for tag in site.data.settings.tags %}
-      {% if tag.series %}
-        <div id="{{ tag.tag }}"><font color="white">{{ tag.name }}</font></div>
-        {% for post in site.posts %}
-          {% if post.categories contains page.category %}
-            {% if post.tags contains tag.tag %}
-              {% include featured-post.html %}
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
+    {% include tag-table.html col1="Series" col2="Description" series="true" %}
 
   </article>
 </div>
+<!-- Seperated series -->
+{% include tag-posts.html series="true" %}
 

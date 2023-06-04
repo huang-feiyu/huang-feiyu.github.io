@@ -13,19 +13,7 @@ layout: default
   {% include tag-table.html col1="Tag" col2="Description" %}
 
   <!-- Seperated tags -->
-  {% if site.data.settings.tags != nil %}
-    {% for tag in site.data.settings.tags %}
-      <br>
-      <h5 id="{{ tag.tag }}">{{ tag.name }}</h5>
-      <ul>
-      {% for post in site.posts %}
-        {% if post.tags contains tag.tag %}
-          {% include item-post.html %}
-        {% endif %}
-      {% endfor %}
-      </ul>
-    {% endfor %}
-  {% endif %}
+  {% include tag-posts.html %}
 
   </article>
 </div>
