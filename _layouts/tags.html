@@ -10,14 +10,7 @@ layout: default
   <article>
 
   <!-- Representation of within page links -->
-  {% if site.data.settings.tags != nil %}
-    <ul>
-    {% for tag in site.data.settings.tags %}
-      {% include item-tag.html %}
-    {% endfor %}
-    </ul>
-  {% endif %}
-  <hr>
+  {% include tag-table.html col1="Tag" col2="Description" %}
 
   <!-- Seperated tags -->
   {% if site.data.settings.tags != nil %}

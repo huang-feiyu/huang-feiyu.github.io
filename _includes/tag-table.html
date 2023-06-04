@@ -1,0 +1,27 @@
+<table>
+  <thead>
+    <tr>
+      <th>{{ include.col1 }}</th>
+      <th>{{ include.col2 }}</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% if site.data.settings.tags != nil %}
+      {% for tag in site.data.settings.tags %}
+    <tr>
+        {% if include.series == nil or tag.series %}
+          <td>
+            <a href="{{ page.url }}#{{ tag.tag }}">{{ tag.name }}</a>
+          </td>
+          <td>
+            {% if tag.description != '' %}
+              {{ tag.description }}
+            {% endif %}
+          </td>
+        {% endif %}
+    </tr>
+      {% endfor %}
+    {% endif %}
+  </tbody>
+</table>

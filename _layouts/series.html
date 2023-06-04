@@ -11,16 +11,7 @@ layout: default
 
 
     <!-- Representation of within page links -->
-    {% if site.data.settings.tags != nil %}
-      <ul>
-      {% for tag in site.data.settings.tags %}
-        {% if tag.series %}
-          {% include item-tag.html %}
-        {% endif %}
-      {% endfor %}
-      </ul>
-    {% endif %}
-
+    {% include tag-table.html col1="Series" col2="Description" series=true %}
 
     <!-- Seperated series -->
     {% for tag in site.data.settings.tags %}
