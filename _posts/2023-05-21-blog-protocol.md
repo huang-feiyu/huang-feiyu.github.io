@@ -11,17 +11,34 @@ description: 对博客的一些简要说明（UI、标点、符号等）。
 
 ### UI 说明
 
-* 字体：主要字体为[思源宋体](https://fonts.google.com/noto/specimen/Noto+Serif+SC)（衬线字体）；如果字体渲染模糊，可以更换更高分辨率的显示器或 zoom up 网页
+* 字体：主要字体为[思源宋体](https://fonts.google.com/noto/specimen/Noto+Serif+SC)（衬线字体）；如果字体渲染模糊，可以更换更高分辨率的显示器或 zoom up 网页（推荐使用 125% 访问本博客）
 * 超链接：显示为<a>淡蓝色</a>，且 hover 时 opacity 降低
 * 文章题图：如果博客中使用文章目录（table of content），文章题图会自动隐藏
 * 文章描述：如果存在文章描述的话，它处于标签（tags）与 文章目录/文章题图 之间
+* 文章标题：大标题仅有 h1 作为一级标题，小标题以 h3 为二级标题、h4 为三级标题……
 * 页脚导航：文章底端的导航标签为超链接，左侧为 Newer Post，右侧为 Older Post；主页底端同样遵循此原则，即左侧为 Newer，右侧为 Older
 
 ### 标点说明
 
-> 中文文章不区分全角或半角，采用微软输入法默认的标点形式。且一般会在数字、单词前后，加上额外的空格以便于排版。
+> 本博客标点自成一体，参考[标点符号用法 - 国标](http://www.moe.gov.cn/ewebeditor/uploadfile/2015/01/13/20150113091548267.pdf)、网络上各类资料以及个人写作经验。
 
-> Punctuation mark used in English articles generally can be able to be typed directly via keyboard.
+#### 一般规则
+
+**中文文章：**
+
+* 中文文章不区分全角或半角，采用微软输入法默认的标点形式。且一般会在数字、单词、特殊字词前后，加上额外的空格以便于阅读。
+* 除特殊情况，所有标点（包括半格符号“”）前后，都不应该存在任何额外空格。
+* 中英文混排文章无特别规定，一般在外层使用 中文符号 包裹住 英文及其标点，内部视作子环境。<br><br>
+  *例*：《地下室手记》以“I am a sick man... I am a spiteful man”的自我披露拉开帷幕。
+
+**English Article:**
+
+* Punctuation mark used in English articles generally can be able to be typed directly via keyboard.
+* For *quotation marks* “” which are not able to be typed directly, writers must use software
+  to convert on input or rendering from *straight quotes* \"\" to *curly quotes* “” in English
+  writing except programming.
+
+#### 具体标点
 
 * 冒号 **：**：用于提示性词语后，提示下文；总结上文；用在需要说明的词语后，表示注释和说明
 * 分号 **；**：并列关系；非并列关系间的停顿，主要是选择、转折等关系；分项列举
@@ -29,15 +46,17 @@ description: 对博客的一些简要说明（UI、标点、符号等）。
 * 半引号 **「」**：标示特殊名词或术语<sup>[1]</sup><br><br>
   *例*：信仰的骑士从未想过「信仰的飞跃」，但他已然飞跃。
 * 半空引号 **『』**：标示特殊名词或术语，用于「」内部<sup>[2]</sup>
-* 双引号 **“”**：标识引语；标示特殊称谓；标示特殊含义（特别地，讽刺与否定）<br><br>
+* 双引号 **“”**：标识引语；标示特殊称谓；标示特殊含义（特别地，讽刺与否定）<sup>[3]</sup><br><br>
   *例*：那过去的时间像鬼魅一般不断地抓着他，他从这不“尊重”自我的事件中获得享受。
 * 方括号 **［］**：对正文的补充或订正；国际音标/古文注音
+* 圆括号 **（）**：作补充说明；标示引语出处；标示特殊字词外文释义；标示汉语拼音注音
 
 注释：
 
 * [0]：微软输入法使用特殊字符的教程 - [telegram comment](https://t.me/huangblog/31?comment=110)
-* [1]：为了减少「」对阅读的影响，每篇博客一般只会在第一次出现某个术语时，使用此标点。
+* [1]：为了减少「」对阅读的影响，除非本博客论述话题与术语直接相关，每篇博客一般只会在第一次出现某个术语时，使用此标点。
 * [2]：正确用法为「」为第一层，类似于“”第一层。此前大多使用错误。
+* [3]：英文与中文的双引号共用字符“”，此类现象也存在于破折号与省略号等。
 
 ### 符号说明
 
@@ -74,7 +93,7 @@ description: 对博客的一些简要说明（UI、标点、符号等）。
 
 > 不太常用的 HTML/Markdown 元素.
 
-##### Tables
+#### Tables
 
 Title 1               | Title 2               | Title 3               | Title 4
 --------------------- | :-------------------: | :-------------------- | --------------------:
@@ -83,7 +102,7 @@ lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ip
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 
-##### Embedding
+#### Embedding
 
 Plenty of social media sites offer the option of embedding certain parts of their site on your own site, such as YouTube and Telegram:
 
@@ -97,7 +116,7 @@ Telegram:
 
 <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="huangblog/74" data-width="100%"></script>
 
-##### MathJax Example
+#### MathJax Example
 
 The [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation) is a partial differential equation that describes how the quantum state of a quantum system changes with time:
 
@@ -110,7 +129,7 @@ $$
 $$ \frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac {\partial  L}{\partial \dot{q}_j} \right ) =  \frac {\partial L}{\partial q_j} $$
 
 
-##### Code and Syntax Highlighting
+#### Code and Syntax Highlighting
 
 Markdown code blocks:
 
