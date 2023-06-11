@@ -6,6 +6,7 @@ tags:
 - {series: false, name: 'English',     tag: 'english',    description: 'English Blog'}
 - {series: false, name: 'Memory',      tag: 'memory',     description: '回忆与过去、那逝去的'}
 - {series: false, name: 'AI',          tag: 'ai',         description: 'the outstanding AI'}
+- {series: false, name: 'Diary',       tag: 'diary',      description: '记录性的、直抒胸臆的日志'}
 - {series: true,  name: 'Trial',       tag: 'trial',      description: ''}
 - {series: true,  name: 'Dostoevsky',  tag: 'dostoevsky', description: ''}
 
