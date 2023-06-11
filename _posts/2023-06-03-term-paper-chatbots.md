@@ -2,7 +2,7 @@
 layout:      post
 title:       The Revolution of Chatbots
 author:      Ludwig Huang
-categories:  journal
+categories:  other
 tags:        [english, ai]
 image:       ai-forest-1.jpg
 toc:         true
