@@ -3,7 +3,7 @@ layout:      post
 title:       博客约定
 author:      Ludwig Huang
 categories:  other
-tags:        [chinese]
+tags:        [chinese, guide]
 image:       paper-1.jpg
 toc:         true
 description: 对博客的一些简要说明（UI、标点、符号等）。

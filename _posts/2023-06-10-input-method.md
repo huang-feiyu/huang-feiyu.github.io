@@ -3,7 +3,7 @@ layout:      post
 title:       更高效的输入方式
 author:      Ludwig Huang
 categories:  other
-tags:        [chinese]
+tags:        [chinese, guide]
 image:       typewriter-1.jpg
 toc:         false
 description: 输入方法论，Vim、双拼输入法简单介绍。

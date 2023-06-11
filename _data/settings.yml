@@ -2,12 +2,13 @@
 #     NOTE: Only when a post that has tags that are in `series`
 #           AND whose category is "series", it will be represented in url("series")
 tags:
-- {series: false, name: 'Chinese',     tag: 'chinese',    description: '中文博客'}
-- {series: false, name: 'English',     tag: 'english',    description: 'English Blog'}
-- {series: false, name: 'Memory',      tag: 'memory',     description: '回忆与过去、那逝去的'}
-- {series: false, name: 'AI',          tag: 'ai',         description: 'the outstanding AI'}
-- {series: true,  name: 'Trial',       tag: 'trial',      description: ''}
-- {series: true,  name: 'Dostoevsky',  tag: 'dostoevsky', description: ''}
+- {series: false, name: 'Chinese',     tag: 'chinese',     description: '中文博客'}
+- {series: false, name: 'English',     tag: 'english',     description: 'English Blog'}
+- {series: false, name: 'Kierkegaard', tag: 'kierkegaard', description: '索伦·克尔凯郭尔'}
+- {series: true,  name: 'Dostoevsky',  tag: 'dostoevsky',  description: '费奥多尔·陀思妥耶夫斯基'}
+- {series: false, name: 'Memory',      tag: 'memory',      description: '回忆与过去、那逝去的'}
+- {series: false, name: 'Guide',       tag: 'guide',       description: '指导性、说明书类'}
+- {series: false, name: 'AI',          tag: 'ai',          description: 'the outstanding AI'}
 
 menu:
 - {name: 'About',             url: 'about'}
