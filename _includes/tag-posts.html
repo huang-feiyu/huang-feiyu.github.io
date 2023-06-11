@@ -3,20 +3,35 @@
     {% for tag in site.data.settings.tags %}
       {% if include.series == nil %}
 
-        <br>
-        <h5 id="{{ tag.tag }}">{{ tag.name }}</h5>
-        <ul>
-        {% for post in site.posts %}
-          {% if post.tags contains tag.tag %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-              {% if post.description %}
-              : {{ post.description }}
+      <br>
+      <h5 id="{{ tag.tag }}">{{ tag.name }}</h5>
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 30%">Article</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {% for post in site.posts %}
+          <tr>
+            {% if post.tags contains tag.tag %}
+              {% if include.series == nil or tag.series %}
+                <td>
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </td>
+                <td>
+                  {% if post.description %}
+                  {{ post.description }}
+                  {% endif %}
+                </td>
               {% endif %}
-            </li>
-          {% endif %}
-        {% endfor %}
-        </ul>
+            {% endif %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
 
       {% else %}
 
