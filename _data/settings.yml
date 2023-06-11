@@ -6,7 +6,6 @@ tags:
 - {series: false, name: 'English',     tag: 'english',    description: 'English Blog'}
 - {series: false, name: 'Memory',      tag: 'memory',     description: '回忆与过去、那逝去的'}
 - {series: false, name: 'AI',          tag: 'ai',         description: 'the outstanding AI'}
-- {series: false, name: 'Diary',       tag: 'diary',      description: '记录性的、直抒胸臆的日志'}
 - {series: true,  name: 'Trial',       tag: 'trial',      description: ''}
 - {series: true,  name: 'Dostoevsky',  tag: 'dostoevsky', description: ''}
 
@@ -16,7 +15,8 @@ menu:
 - {name: 'Series',            url: 'series'}
 - {name: 'Review',            url: 'review'}
 - {name: 'Essay',             url: 'essay'}
-- {name: 'Journal',           url: 'journal'}
+- {name: 'Diary',             url: 'diary'}
+- {name: 'Draft',             url: 'draft'}
 - {name: 'Other',             url: 'other'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer

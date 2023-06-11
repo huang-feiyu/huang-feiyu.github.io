@@ -20,7 +20,8 @@
   * 个人创作连载，还在摸索中
 * [评论性文章](https://huang-feiyu.github.io/review)：对书籍、音乐、电影所做的评论，力图以文字达到通感的效果
 * [哲学散论](https://huang-feiyu.github.io/essay)：对重要的抽象概念进行阐释，在某种意义上传播知识
-* [个人日志](https://huang-feiyu.github.io/journal)：随心而作的记录性日志（diary），以及其他不长期维护的练笔作品（journal）
+* [个人日志](https://huang-feiyu.github.io/diary)：随心而作的记录性日志
+* [练笔性文章](https://huang-feiyu.github.io/draft)：不长期维护的练笔作品
 * [其他](https://huang-feiyu.github.io/other)：不方便分类的文章
 
 另：本博客为中英文双语博客（以中文为主），不对两者进行区分。目前作者的英文写作水平并不足以支撑一篇行文流畅的文章，所以相当一部分的英文文章为练笔之作。
