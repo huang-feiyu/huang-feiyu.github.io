@@ -6,7 +6,7 @@ categories:  other
 tags:        [chinese, guide]
 image:       typewriter-1.jpg
 toc:         false
-description: 输入方法论，Vim、双拼输入法简单介绍。
+description: 输入方法论，Vim、双拼输入法简单介绍，以及键鼠输入概论。
 ---
 
 ### 输入方法论
@@ -15,7 +15,7 @@ description: 输入方法论，Vim、双拼输入法简单介绍。
 
 本篇文章无意于重新拾起纸笔写作的感觉，而希望建立起另一种「写作感觉」。前者来自于“**象形符号**固有的提示性”，后者来自于“**迅速**输入以抓住转瞬即逝的灵感”。**迅速**来自于熟练的输入经验（例如标准指法、盲打等），以及硬件、软件上的适配。
 
-本文介绍的是：软件上的适配。
+本文介绍的是：软件上的适配，以及简要的硬件知识。
 
 ### Vim
 
@@ -52,4 +52,67 @@ Vim（**V**i **im**proved）是一款软件，其中蕴含着至关重要的文�
 学习方法也非常简单，设置后在 [双拼练习@BlueSky](https://api.ihint.me/shuang/) 中练习半个小时后，再写作一篇千字文章即可达到全拼正常输入速度。后续更加熟悉后，输入速度会大幅度提升。
 
 另：[17 键乱序双拼 - 手机双拼方案](https://www.bilibili.com/read/cv13043066/)。由于手机屏幕过小，容易误触，26 键拼音输入被排除在外。同时，由于九宫格输入重码率过高，也被排除在外。由此衍生出众多手机双拼方案，有 12 键、14 键、17 键的，我个人选择 17 键输入方案。
+
+### 键鼠输入
+
+在许多场景下，纯键盘输入是无法满足我们对鼠标的需求的，例如某个需要精确右击的场景。而这类场景又可在大体上分为：1) 少量鼠标操作；2) 大量鼠标操作。
+
+对于**少量鼠标操作**，我们同样遵循 Vim 文本编辑哲学：尽可能少地离开主输入区。比较简单的解决方案是：[联想的小红点键盘](https://tk.lenovo.com.cn/product/1009664.html)。但是，因为对一根手指过度的依赖，此类键盘不适合大量鼠标操作。
+
+<details><summary>联想小红点键盘 - 图示</summary><img src="https://www.biaodianfu.com/wp-content/uploads/2022/07/red-point.jpg"/></details>
+
+下面提供一个最简略不过的使用教程：
+
+```
+- 小红点：摇杆操纵以精确移动
+- 类鼠标三键：左键 | 中键 | 右键
+- 其他
+	- 中键与小红点组合：滚动效果
+	- 个人适配：灵敏度调节 & 键帽更换
+```
+
+----
+
+对于**大量鼠标操作**，键盘区不再是主要输入手段，而是用作辅助。此类场景常常是：剪辑、作图、设计、娱乐等。由于我并非此类专业领域从事者，故仅仅面向非专业领域鼠标操作（某些处理逻辑适用于专业领域）。
+
+鼠标硬件是此场景的重中之重，长时间使用的舒适感压倒后续所有内容。而舒适感需要考虑到：0) 长时间使用后果；1) 握持手感；2) 重量；3) 续航；4) 可用性（能否自定义等）。考虑到这些，我本人选择的鼠标为：微软的 [Sculpt Ergonomic Mouse](https://www.microsoftstore.com.cn/accessories/ms-sculpt-ergonomic-mouse)。
+
+<details><summary>Sculpt Ergonomic Mouse - 图示</summary>
+<div style="display: flex">
+<div><img src="https://cdn.microsoftstore.com.cn/media/product_long_description/0436-00000/pdp_image/1.jpg"/></div>
+<div><img src="https://cdn.microsoftstore.com.cn/media/product_long_description/0436-00000/pdp_image/2.jpg"/></div>
+</div>
+</details>
+下面针对该鼠标提供操作指南：
+
+```
+- 左键 & 右键：普普通通
+- 中键：详见 https://sspai.com/post/70372
+	- 浏览器中具现化滚动
+	- 浏览器中中键点击超链接，打开网页而不跳转
+	- 具有标签的软件中，中键关闭标签
+	
+=== 软件：Microsoft Mouse and Keyboard Center ===
+- 侧键（蓝色）：用于关闭标签或软件
+	- Basic Settings: Ctrl + W
+	- App-Specific Settings: Alt + F4 或 Ctrl + Shift + W
+- 侧键（突起）：用于切换软件标签
+	- Basic Settings: Ctrl + Tab
+```
+
+----
+
+由于 Windows 触控板体验并没有很好，钻研配置的性价比不高。此处仅仅贴出我的简单配置以供参考：
+
+```
+- 三指：
+	- 点击：中键
+	- 上滑：任务视图
+	- 下滑：显示桌面
+	- 左右滑：应用切换
+- 四指：
+	- 点击：F11
+	- 上下滑：Win + Up/Down
+	- 左右滑：桌面切换
+```
 
