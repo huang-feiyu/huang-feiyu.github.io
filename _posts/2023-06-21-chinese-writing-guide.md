@@ -3,7 +3,7 @@ layout:      post
 title:       中文写作琐碎指南
 author:      Ludwig Huang
 categories:  other
-tags:        [chinese, guide]
+tags:        [chinese, guide, writing]
 image:       hand-1.jpg
 toc:         true
 description: 写作需要字斟句酌，锤炼文章与思想。

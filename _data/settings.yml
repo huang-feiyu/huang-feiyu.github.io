@@ -9,6 +9,7 @@ tags:
 - {series: false, name: 'Memory',        tag: 'memory',        description: '回忆与过去、那逝去的'}
 - {series: false, name: 'Guide',         tag: 'guide',         description: '指导性、说明书类'}
 - {series: false, name: 'Irrationalism', tag: 'irrationalism', description: '非理性、主观性'}
+- {series: false, name: 'Writing',       tag: 'writing',       description: '写作、刻意练习'}
 - {series: false, name: 'AI',            tag: 'ai',            description: 'the outstanding AI'}
 
 menu:
