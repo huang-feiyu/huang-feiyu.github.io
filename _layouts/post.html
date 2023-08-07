@@ -18,7 +18,11 @@ layout: default
     {% endfor %}
   </div>
 
+  {% if page.tags contains "chinese" %}
+  <article style="font-family: 'Noto Serif SC', 'Helvetica', 'Arial', sans-serif;">
+  {% else %}
   <article>
+  {% endif %}
     {% if page.description %}
       <blockquote>{{ page.description }}</blockquote>
     {% endif %}
