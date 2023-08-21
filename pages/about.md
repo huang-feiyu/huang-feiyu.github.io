@@ -6,7 +6,17 @@ permalink: /about
 
 **更新情况**：每周更新一篇，一般在 周五 或 周六 或 周日 更新。
 
-**访问须知**：For Chinese readers, to get intact experience of Huang Blog, please learn how to cross the *Great Firewall*.
+**访问须知**：For Chinese readers, to get intact experience of Huang Blog, please learn to cross the *Great Firewall*.
+
+### 博客主题
+
+> 人不能忽略自己。
+
+现代社会矛盾众多，最为凸显的是「资源不均」，体现在：权力、财富、少数群体。有大量的艺术作品在尽全力改变这一现状，当代作品中最具力量的是 *[I Got Smoke](https://www.bilibili.com/video/BV1UW4y1N79w)*。但是，本博客并不会致力于解决此类问题——任何有关于分配的问题都要求暴力，而个体的文字不具备任何暴力性。再者，人类拒绝一切非暴力、非奴役的统治。大同世界/乌托邦是不切实际的悖论，仅有矛盾激化下的再分配是可能的。
+
+尽管许多前人早已预言工业社会中人的精神状况，但是很少人认识到：我身处预言。被侮辱和损害的人，似乎永远活在文学作品中，似乎永远只是一个无人在乎的概念。人本身越发罕有，人的个性、情感越发趋同——所有人都被忽略，无论是其个性发展，还是思想状况。现在，一个人能被不足半页纸的表格评判，一个人的死亡能被一个轻飘飘的“抑郁症”概括。
+
+本博客关注「无人在乎的我」，强调「个体」、「主观性」。更广泛地说，本博客在于延缓「人的异化」。
 
 ### 关于博客
 
