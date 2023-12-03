@@ -4,7 +4,7 @@ title:     关于
 permalink: /about
 ---
 
-**更新情况**：每周更新一篇，一般在 周五 或 周六 或 周日 更新。
+**更新情况**：<s>每周更新一篇，一般在 周五 或 周六 或 周日 更新。</s>随缘更新。
 
 **访问须知**：For Chinese readers, to get intact experience of Huang Blog, please learn to cross the *Great Firewall*.
 
