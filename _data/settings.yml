@@ -21,7 +21,6 @@ menu:
 - {name: 'Review',            url: 'review'}
 - {name: 'Essay',             url: 'essay'}
 - {name: 'Diary',             url: 'diary'}
-- {name: 'Draft',             url: 'draft'}
 - {name: 'Other',             url: 'other'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
