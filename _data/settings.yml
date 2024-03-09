@@ -10,6 +10,7 @@ tags:
 - {series: false, name: 'Techonology',   tag: 'technology',    description: '科技领域'}
 - {series: false, name: 'AI',            tag: 'ai',            description: 'the outstanding AI'}
 - {series: false, name: 'Memory',        tag: 'memory',        description: '回忆与过去、那逝去的'}
+- {series: true,  name: 'School Life',   tag: 'school-life',   description: '大学四年的思想、生活经历'}
 - {series: false, name: 'Kierkegaard',   tag: 'kierkegaard',   description: '索伦·克尔凯郭尔'}
 - {series: true,  name: 'Dostoevsky',    tag: 'dostoevsky',    description: '费奥多尔·陀思妥耶夫斯基'}
 - {series: false, name: 'Irrationalism', tag: 'irrationalism', description: '非理性、主观性'}
