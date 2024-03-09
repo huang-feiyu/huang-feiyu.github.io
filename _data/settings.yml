@@ -4,15 +4,15 @@
 tags:
 - {series: false, name: 'Chinese',       tag: 'chinese',       description: '中文博客'}
 - {series: false, name: 'English',       tag: 'english',       description: 'English Blog'}
+- {series: false, name: 'Annual',        tag: 'annual',        description: '每年一度'}
+- {series: false, name: 'Guide',         tag: 'guide',         description: '指导性、说明书类'}
+- {series: false, name: 'Writing',       tag: 'writing',       description: '写作、刻意练习'}
+- {series: false, name: 'Techonology',   tag: 'technology',    description: '科技领域'}
+- {series: false, name: 'AI',            tag: 'ai',            description: 'the outstanding AI'}
+- {series: false, name: 'Memory',        tag: 'memory',        description: '回忆与过去、那逝去的'}
 - {series: false, name: 'Kierkegaard',   tag: 'kierkegaard',   description: '索伦·克尔凯郭尔'}
 - {series: true,  name: 'Dostoevsky',    tag: 'dostoevsky',    description: '费奥多尔·陀思妥耶夫斯基'}
-- {series: false, name: 'Memory',        tag: 'memory',        description: '回忆与过去、那逝去的'}
-- {series: false, name: 'Guide',         tag: 'guide',         description: '指导性、说明书类'}
 - {series: false, name: 'Irrationalism', tag: 'irrationalism', description: '非理性、主观性'}
-- {series: false, name: 'Techonology',   tag: 'technology',    description: '科技领域'}
-- {series: false, name: 'Writing',       tag: 'writing',       description: '写作、刻意练习'}
-- {series: false, name: 'AI',            tag: 'ai',            description: 'the outstanding AI'}
-- {series: false, name: 'Annual',        tag: 'annual',        description: '每年一度'}
 
 menu:
 - {name: 'About',             url: 'about'}
