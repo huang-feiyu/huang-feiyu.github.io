@@ -44,8 +44,9 @@ description: 有关于我四年的生活，关注个体生活经历、社会氛�
 *下两图*为疫情期间修建的桥梁，汇集安全与美观。可惜没几天就被拆了，要不然新入学的学生还能多走几次弯路。
 
 <div>
-<img src="../assets/img/school-life/bridge-1.jpg" style="float:left; margin-right:0px;">
+<img src="../assets/img/school-life/bridge-1.jpg">
 <img src="../assets/img/school-life/bridge-2.jpg">
 </div>
+
 
 TODO: 实习的经历，由于目前仍处于实习阶段，本段并不能写完。
