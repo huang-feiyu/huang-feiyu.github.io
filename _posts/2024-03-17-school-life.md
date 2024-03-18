@@ -9,8 +9,6 @@ toc:         true
 description: 有关于我四年的生活，关注个体生活经历、社会氛围与思想变迁。
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78lVJChTMac?si=gMW7d2r0gYR_eNqX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ### 前言
 
 本篇介绍我的四年大学生活，着重介绍我的思想历程、生活经历，中间掺杂着对社会的失望与对自己生活方式的反思。本篇不太可能为读者提供有效的信息，它是给希望了解我本人的读者（含未来的自己）读的。
