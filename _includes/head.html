@@ -26,27 +26,6 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
 
-<script>
-    function isDarkMode() {
-        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    }
-
-    // 反转颜色
-    function invertColors() {
-        document.documentElement.style.filter = 'invert(100%)';
-        document.documentElement.style.backgroundColor = '#000';
-        var images = document.querySelectorAll('img, video');
-        images.forEach(function(img) {
-            img.style.filter = 'brightness(70%)';
-        });
-    }
-
-    if (isDarkMode()) {
-        invertColors();
-    }
-</script>
-
-
   <!-- Google Analytics -->
   <!-- {% include google-analytics.html %} -->
 
