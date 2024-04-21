@@ -29,3 +29,16 @@
     width: 95vw;
   }
 }
+
+@mixin dark {
+  @media screen and (prefers-color-scheme: dark) {
+    @content;
+  }
+}
+
+body {
+  color: #000;
+  @include dark {
+    color: #fff;
+  }
+}
