@@ -92,3 +92,25 @@
     background-color: #f1f1f1;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  /* Apply dark mode styles for the header here */
+  .dropdown-content,
+  .dropbtn,
+  .site-header {
+    background-color: var(--background-color); /* Use dark mode background color from root */
+    color: var(--text-color); /* Use dark mode text color from root */
+  }
+
+  .dropdown:hover .dropbtn,
+  .dropdown-content a:hover {
+    background-color: #111;
+  }
+
+  .dropdown-content a,
+  .site-title a,
+  .menu-link,
+  .dropbtn {
+    color: var(--text-color); /* Use dark mode text color for elements within header */
+  }
+}

@@ -27,3 +27,16 @@
   color: #9a9a9a;
   font-size:0.8rem;
 }
+
+@media (prefers-color-scheme: dark) {
+  /* Dark mode for header and footer */
+  .footer {
+    background-color: var(--background-color); /* Use dark mode background color */
+    color: var(--text-color); /* Use dark mode text color */
+  }
+
+  .footer-description,
+  .footer a {
+    color: var(--text-color); /* Use dark mode text color for elements within header and footer */
+  }
+}

@@ -9,6 +9,42 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+:root {
+  --background-color: #fff; /* Light mode background */
+  --text-color: #000; /* Light mode text */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #222; /* Dark mode background */
+    --text-color: #fff; /* Dark mode text */
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  .markdown-body {
+    background-color: #333;
+    color: #eee;
+  }
+
+  a {
+    color: #999;
+  }
+
+  a:hover {
+    color: var(--text-color); /* Use dark mode text color on hover */
+  }
+
+  pre {
+    background-color: #444;
+    color: #eee;
+  }
+}
+
+
 /*
   Basic styling
 */

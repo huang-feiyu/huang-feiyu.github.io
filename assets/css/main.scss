@@ -57,6 +57,12 @@ article.featured-post-article a:hover {
   cursor: pointer;
 }
 
+@media (prefers-color-scheme: dark) {
+  .tags a, .tags .tag {
+    color: #999;
+  }
+}
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;

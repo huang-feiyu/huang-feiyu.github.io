@@ -115,6 +115,19 @@
 
 .post-navigation .holder {
   text-decoration: none;
+  color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-navigation,
+  .post-navigation a,
+  .post-navigation .prev {
+    color: var(--text-color);
+  }
+
+  .post-navigation .holder {
+    color: var(--background-color);
+  }
 }
 
 .toc-container {
