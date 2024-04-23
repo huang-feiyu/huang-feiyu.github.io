@@ -12,17 +12,16 @@ layout: default
     {% include post-date.html %}
   {% endif %}
 
-  <div class="tags">
-    {% for tag in page.tags %}
-      <a class="tag" href="/tags#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
-    {% endfor %}
+  <div class="tags-container">
+    <div class="tags">
+      {% for tag in page.tags %}
+        <a class="tag" href="/tags#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    <button id="toggleFontButton" class="toggle-button"></button>
   </div>
 
-  {% if page.tags contains "chinese" %}
-  <article>
-  {% else %}
-  <article>
-  {% endif %}
+  <article id="article">
     {% if page.description %}
       <blockquote>{{ page.description }}</blockquote>
     {% endif %}
@@ -56,3 +55,19 @@ layout: default
     {% include disqus.html %}
   {% endif %}
 </div>
+
+
+<script>
+  var fontToggle = document.getElementById("toggleFontButton");
+  var article = document.getElementById("article");
+  var serif = !(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+  article.style.fontFamily = serif ? "'Noto Serif', 'Noto Serif SC'" : "'Noto Sans', 'Noto Sans SC'";
+  fontToggle.textContent = serif ? "Serif" : "Sans";
+
+  fontToggle.addEventListener("click", function () {
+    serif = !serif;
+    article.style.fontFamily = serif ? "'Noto Serif', 'Noto Serif SC'" : "'Noto Sans', 'Noto Sans SC'";
+    fontToggle.textContent = serif ? "Serif" : "Sans";
+  });
+</script>

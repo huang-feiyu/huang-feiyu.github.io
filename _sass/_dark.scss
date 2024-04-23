@@ -11,10 +11,6 @@
     color: var(--text-color);
   }
 
-  article {
-    font-family: 'Noto Sans SC', 'Helvetica', 'Arial', sans-serif;
-  }
-
   .markdown-body {
     background-color: #333;
     color: #eee;
@@ -47,6 +43,11 @@
   .tags .tag {
     color: #999;
     border: 1px solid #555;
+  }
+
+  .toggle-button {
+    color: #999;
+    background-color: #111;
   }
 }
 

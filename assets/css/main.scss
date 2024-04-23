@@ -42,7 +42,13 @@ article.featured-post-article a:hover {
   -ms-transition: opacity 0.2s ease-in-out 0.1s;
 }
 
-.tags a, .tags .tag {
+.tags-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tags a, .tags .tag, .toggle-button {
   display: inline-block;
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 999em;
@@ -55,6 +61,10 @@ article.featured-post-article a:hover {
   margin: 0 1px;
   margin-bottom: 6px;
   cursor: pointer;
+}
+
+.toggle-button {
+  border: 0px;
 }
 
 .videoWrapper {
