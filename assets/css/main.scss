@@ -1,9 +1,9 @@
 ---
 ---
 
-$base-font-family: 'Noto Sans', 'Noto Sans SC', 'Helvetica', 'Arial', sans-serif;
-$body-font-family: 'Noto Serif', 'Noto Serif SC', 'Helvetica', 'Arial', sans-serif;
-$code-font-family: 'Source Code Pro', 'Consolas', monospace;
+$base-font-family:    'Noto Sans', 'Noto Sans SC', 'Helvetica', 'Arial', sans-serif;
+$code-font-family:    'Source Code Pro', 'Consolas', monospace;
+$article-font-family: 'Noto Serif', 'Noto Serif SC', 'Helvetica', 'Arial', sans-serif;
 
 $brand-color: black;
 
@@ -55,13 +55,6 @@ article.featured-post-article a:hover {
   margin: 0 1px;
   margin-bottom: 6px;
   cursor: pointer;
-}
-
-@media (prefers-color-scheme: dark) {
-  .tags a, .tags .tag {
-    color: #999;
-    border: 1px solid #555;
-  }
 }
 
 .videoWrapper {

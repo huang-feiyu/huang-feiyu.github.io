@@ -118,21 +118,9 @@
   color: white;
 }
 
-@media (prefers-color-scheme: dark) {
-  .post-navigation,
-  .post-navigation a,
-  .post-navigation .prev {
-    color: var(--text-color);
-  }
-
-  .post-navigation .holder {
-    color: var(--background-color);
-  }
-}
-
 .toc-container {
   width: 95%;
-  margin: auto;
+  margin: 5px;
   padding: 5px;
   border: 1px solid;
 }

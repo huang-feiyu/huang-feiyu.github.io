@@ -14,42 +14,6 @@ dl, dd, ol, ul, figure {
   --text-color: #000; /* Light mode text */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #222; /* Dark mode background */
-    --text-color: #999; /* Dark mode text */
-  }
-
-  body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
-
-  .markdown-body {
-    background-color: #333;
-    color: #eee;
-  }
-
-  a {
-    color: #bbb;
-  }
-
-  a:hover {
-    color: var(--text-color); /* Use dark mode text color on hover */
-  }
-
-  pre {
-    background-color: #444;
-    color: #eee;
-  }
-
-  img,
-  video {
-    filter: brightness(0.8); /* Adjust brightness as needed (0-1) */
-  }
-}
-
-
 /*
   Basic styling
 */
@@ -91,6 +55,10 @@ body img {
   margin: 5px auto auto auto;
   display: block;
   max-width: 100%;
+}
+
+article {
+  font-family: $article-font-family;
 }
 
 p {
